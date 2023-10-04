@@ -12,21 +12,12 @@ body {
     /* padding: 20px; */
     text-align: center;
     background-color: #fff;
-    /* margin-top: 20px;  */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 
 .red-box {
-    /* border: 2px solid #000; */
     display: flex;
     justify-content: space-between;
     background-color: red;
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* padding: 10px; */
-    /* margin-bottom: 20px; */
 }
 .red-box .text1{
     border: 3px solid #000;
@@ -48,11 +39,3 @@ body {
 .container .bottom1 {
     background-color: #00f;
 }
-
-/* .pic{
-    background-color: #fff;
-} */
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
