@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    height: 550px;
+    /* padding: 20px; */
+    text-align: center;
+    background-color: #fff;
+    /* margin-top: 20px;  */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.red-box {
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* padding: 10px; */
+    /* margin-bottom: 20px; */
+}
+.red-box .text1{
+    border: 3px solid #000;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px; /* 调整字体大小为24像素 */
+
+}
+
+.red-box div {
+    width: 33%;
+    height: 50px;
+    color: #fff;
+}
+
+.container .bottom1 {
+    background-color: #00f;
+}
+
+/* .pic{
+    background-color: #fff;
+} */
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
