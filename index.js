@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const catImagePath = './image/cat.jpg';
     const dogImagePath = './image/dog.jpg';
 
+
     // 设置图片的样式1
     catImage.src = catImagePath;
     catImage.alt = 'cat';
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     dogImage2.style.maxWidth = '410px'; // 设置图片最大宽度为50%
     dogImage2.style.height = '355px'; // 让图片高度自适应
 
-
+    //点击左边
     leftText.addEventListener('click', function () {
         bottom1.style.backgroundImage = 'none'; // 移除背景图片
         bottom1.style.background = 'linear-gradient(to right, #00f 95%, #008000 5%)';
@@ -57,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
         catImage.style.left = '-113px'; // 设置图片距离左边边缘   -133和边缘对齐，+20
         bottom1.appendChild(catImage);
     });
-
+    //点击中间
     middleText.addEventListener('click', function () {
         bottom1.style.backgroundImage = 'none'; // 移除背景图片
         bottom1.style.background = 'linear-gradient(to right, #00f 50%, #008000 50%)';
@@ -78,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
         dogImage2.style.left = '20px'; // 设置图片距离左边边缘   0和边缘对齐，+20
         bottom1.appendChild(dogImage2);
     });
-
+    //点击右边
     rightText.addEventListener('click', function () {
         bottom1.style.backgroundImage = 'none'; // 移除背景图片
         bottom1.style.background = 'linear-gradient(to left,  #008000 95%,#00f 5%)';
